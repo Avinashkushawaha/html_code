@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    background-color: white;
+}
+.header .img {
+    height: 40px;
+    padding-right: 50px;
+}
+.nav {
+    display: flex;
+    gap: 20px;
+
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+.carousel {
+    position: relative;
+}
+.carousel img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.carousel .overlay {
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: rgb(201, 196, 196);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: inherit;
+    align-items: safe;
+    font-weight: bold;
+}
+
+.carousel .overlay img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+.overlay p{
+   padding-right: 50px; 
+}
+
+
+.sub-nav {
+    background-color: white;
+    padding: 10px 0;
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid #ccc;
+
+}
+.sub-nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    font-size: 14px;
+   
+    padding-bottom: 50px;
+}
+
+.Breaking-news {
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    flex-grow: 1;
+
+}
+.Breaking-news span {
+    background-color: rgb(255, 255, 0);
+    color: black;
+    padding: 0.5px 0.5px 0px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f0f0f0;
+}
+.main-content .box {
+    background-color: white;
+    width: 20rem;
+    height: 60px;
+    margin: 5px ;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    font-size: 13px;
+
+}
+.main-content .box img{
+    height: 30px;
+    width: 30px;
+}
+.main-content .box i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-image: url('http://www.nialjewar.com/img/SLIDE_02.jpg');
+    background-size: cover;
+    color: white;
+    background-color: #000000;
+    padding: 40px 20px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .left {
+    width: 50%;
+}
+.footer .left img {
+    width: 100px;
+    padding-left: 80px;
+}
+.footer .left p {
+    margin: 20px 0;
+    width: 270px;
+padding-bottom: 70px;
+padding-left: 80px;
+
+}
+.footer .right {
+    width: 40%;
+    padding-right: 100px;
+}
+.footer .right h2{
+    padding-left: 80px;
+}
+.footer .right form {
+    display: flex;
+    flex-direction: column;
+}
+.footer .right form input, .footer .right form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #bab8b8;
+    text-align: center;
+    border-radius: 5px;
+}
+.footer .right form button {
+    padding: 5px;
+    background-color: #007bff;
+    color: rgb(238, 238, 238);
+    border: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer .contact {
+    width: 30%;
+}
+.footer .contact p {
+    margin: 10px 0;
+
+}
+.footer .contact i {
+    margin-right: 10px;
+    align-items: center;
+}
+.footer-bottom {
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 1px ;
+}
